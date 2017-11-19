@@ -171,3 +171,33 @@ html {
   margin-top: 4rem;
   padding-top: 3rem;
 }
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .product {
+    width: 47%;
+  }
+
+  .product img {
+    width: 47%;
+  }
+
+  .product h4 {
+    width: 47%;
+  }
+  
+  .location h4 {
+    width: 35%;
+  }
+
+  .hours h4 {
+    width: 35%;
+  }
+
+  .menu li {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) and (orientation: portrait) {
+
+}
