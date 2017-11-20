@@ -198,5 +198,46 @@ html {
   }
 
 @media only screen and (max-width: 470px) and (orientation: portrait) {
+  .banner h4 {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .banner h1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .banner {
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .main img {
+    height: 15rem;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .product h4 {
+    width: 90%;
+  }
+
+  .location {
+    width: 90%;
+  }
+
+  .hours {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+
+  .footer {
+    text-align: center;
+  }
 
 }
